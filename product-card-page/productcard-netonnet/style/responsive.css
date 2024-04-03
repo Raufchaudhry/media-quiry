@@ -1,0 +1,38 @@
+@media screen and(max-width: 900px) {
+    .containerone, .containertwo {
+        flex: auto;
+        width: 100%;
+        
+}
+}
+
+
+@media screen and (max-width:750px) {
+
+    .partone {
+        flex: auto;
+        width: 100%;
+        
+        
+    }
+
+    .parttwo {
+        flex: auto;
+        width: 100%;
+        margin-right: 500px;
+        
+        
+    }
+    
+}
+
+@media screen and (max-width:750px) {
+    .parttwo {
+        order: 1;
+    }
+
+    .partone {
+        order: 2;
+    }
+    
+}
